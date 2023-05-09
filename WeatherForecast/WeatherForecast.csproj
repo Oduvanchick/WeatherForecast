@@ -1,0 +1,93 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Icons\Weather\01d.png" />
+    <None Remove="Icons\Weather\01n.png" />
+    <None Remove="Icons\Weather\02d.png" />
+    <None Remove="Icons\Weather\02n.png" />
+    <None Remove="Icons\Weather\03d.png" />
+    <None Remove="Icons\Weather\03n.png" />
+    <None Remove="Icons\Weather\04d.png" />
+    <None Remove="Icons\Weather\04n.png" />
+    <None Remove="Icons\Weather\09d.png" />
+    <None Remove="Icons\Weather\09n.png" />
+    <None Remove="Icons\Weather\10d.png" />
+    <None Remove="Icons\Weather\10n.png" />
+    <None Remove="Icons\Weather\11d.png" />
+    <None Remove="Icons\Weather\11n.png" />
+    <None Remove="Icons\Weather\13d.png" />
+    <None Remove="Icons\Weather\13n.png" />
+    <None Remove="Icons\Weather\50d.png" />
+    <None Remove="Icons\Weather\50n.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Icons\Weather\01d.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\Weather\01n.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\Weather\02d.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\Weather\02n.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\Weather\03d.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\Weather\03n.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\Weather\04d.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\Weather\04n.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\Weather\09d.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\Weather\09n.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\Weather\10d.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\Weather\10n.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\Weather\11d.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\Weather\11n.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\Weather\13d.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\Weather\13n.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\Weather\50d.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\Weather\50n.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="GoogleMaps.LocationServices" Version="1.2.0.5" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+</Project>

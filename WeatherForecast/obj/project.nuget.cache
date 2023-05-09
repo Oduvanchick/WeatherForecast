@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "7OAmJHMfGg7h1QrGSZPdZmpt7RcdIaWV6XWZSEdOPo5Fy5XwL6HC/wk8FPGyGY57lvfuLs1fBoJRJWEmQOQYMQ==",
+  "success": true,
+  "projectFilePath": "D:\\AdditionalProjects\\WeatherForecast\\WeatherForecast\\WeatherForecast.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Ната\\.nuget\\packages\\googlemaps.locationservices\\1.2.0.5\\googlemaps.locationservices.1.2.0.5.nupkg.sha512",
+    "C:\\Users\\Ната\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
